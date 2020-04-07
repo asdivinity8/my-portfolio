@@ -1,4 +1,24 @@
 .wrapper {
+  grid-template-rows: 1fr;
+}
+
+.mobile-nav{
+  display: block;
+  width: 100%;
+  height: 50px;
+  background-color: #54B689;
+}
+
+.desktop-nav {
+  display: none;
+}
+
+@media only screen and (min-width: 768px){
+  .mobile-nav {
+    display: none;
+  }
+
+  .wrapper {
     display: grid;
     grid-template-areas: 
     "nav main"
@@ -7,8 +27,9 @@
     grid-gap:20px;
     height: 100vh;
 }
-nav {
+.desktop-nav {
     grid-area: nav;
+    display: block;
 }
 main{
     grid-area: main;
@@ -91,3 +112,4 @@ ul {
     background-color: #54B689;
     color: white;
   }
+}

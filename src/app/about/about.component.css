@@ -1,8 +1,11 @@
+.about-wrapper {
+    padding: 0 40px;
+}
+
 .container {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 100%;
     grid-gap: 20px;
-    padding: 40px;
     overflow: hidden;
     margin-top: 30px;
 }
@@ -27,14 +30,35 @@
 }
 
 .profile-pic {
-    background-image: url('src/assets/IMG_20191222_221848__01.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 350px;
-    width: 450px;
-    border-radius: 4px;
+    display: none;
 }
 
 button {
-    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+@media only screen and (min-width: 768px){
+    .container {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-gap: 20px;
+        overflow: hidden;
+        margin-top: 30px;
+    }
+
+    .profile-pic {
+        background-image: url('src/assets/IMG_20191222_221848__01.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 350px;
+        width: 450px;
+        border-radius: 4px;
+        display: block;
+    }
+
+    button {
+        margin-right: 20px;
+        width: 230px;
+    }
 }
