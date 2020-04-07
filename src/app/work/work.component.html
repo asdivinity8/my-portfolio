@@ -1,0 +1,20 @@
+<div class="project-wrapper">
+  <div class="project-headline">
+    <h1>Portfolio</h1>
+    <p class="project-desc">Welcome to my online portfolio. Here you can find the organisations that I have worked for in the past as well as
+      the roles and reponsibilities carried out by me. If you are interested my portfolio and want to find out more,
+      please <a routerLink='/contact' routerLinkActive="active">contact me</a> </p>
+  </div>
+  <div class="project-container">
+    <mat-card *ngFor="let p of projects">
+      <mat-card-title>{{ p.title }}</mat-card-title>
+      <hr>
+      <mat-card-subtitle>{{ p.subtitle }} </mat-card-subtitle>
+      <mat-card-content>
+        <ul>
+          <li *ngFor="let d of p.description">{{ d }}</li>
+        </ul>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>

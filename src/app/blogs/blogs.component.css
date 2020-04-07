@@ -1,0 +1,41 @@
+.blogs-wrapper {
+    padding: 30px 40px;
+}
+
+.blogs-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+}
+
+.blogs-headline {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.blogs-headline h1{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.blogs-desc{
+    font-size: 16px;
+    color: #4f4f4f;
+    line-height: 1.5;
+}
+
+mat-card-content {
+    color: #4f4f4f;
+    line-height: 1.5;
+}
+
+mat-card-content a{
+    color: #54B689;
+    text-decoration: none;
+}
+
+mat-card-content a:hover, mat-card-content a:active, mat-card-content a:focus{
+    color: #398562;
+    text-decoration: underline;
+}

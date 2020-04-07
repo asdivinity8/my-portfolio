@@ -1,0 +1,17 @@
+<div class="blogs-wrapper">
+  <div class="blogs-headline">
+    <h1>Blogs</h1>
+    <p class="blogs-desc">When I am not coding, I use my time to gather my learnings and pen them down. Here you will
+      find technical blogs written by me.</p>
+  </div>
+  <div class="blogs-container">
+    <mat-card *ngFor="let b of blogs">
+      <img mat-card-image src="{{ b.imageUrl}}">
+      <mat-card-title>{{ b.name }}</mat-card-title>
+      <hr>
+      <mat-card-content>
+        {{ b.description }} <a href="{{ b.url }}" target="{{b.target}}">Read More</a>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>

@@ -1,0 +1,42 @@
+.contact-wrapper {
+    padding: 30px 40px;
+}
+
+.contact-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 40px;
+}
+
+mat-card {
+    padding: 30px;
+    text-align: center;
+    background-color: #f6f6f6;
+}
+
+mat-card-title {
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #292929;
+}
+
+mat-card-content {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #4f4f4f;
+}
+
+mat-card-content a{
+    color: #54B689;
+    text-decoration: none;
+}
+
+mat-card-content a:hover, mat-card-content a:active, mat-card-content a:focus{
+    color: #398562;
+    text-decoration: underline;
+}
+
+img{
+    margin-right: 20px;
+}

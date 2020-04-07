@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ICONS } from './socialIcons';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'my-portfolio';
+  title = 'Anu Singh';
+  icons = ICONS;
 }

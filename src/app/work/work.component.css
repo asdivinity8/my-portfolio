@@ -1,0 +1,49 @@
+.project-wrapper {
+    padding: 30px 40px;
+}
+
+.project-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 40px;
+}
+
+.project-headline {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.project-headline h1{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.project-desc{
+    font-size: 16px;
+    color: #4f4f4f;
+    line-height: 1.5;
+}
+
+.project-desc a{
+    color: #54B689;
+    text-decoration: none;
+}
+
+.project-desc a:hover, .project-desc a:active, .project-desc a:focus{
+    color: #398562;
+    text-decoration: underline;
+}
+
+mat-card {
+    padding: 30px;
+    background-color: #f6f6f6;
+}
+
+hr {
+    border-color: #54B689;
+}
+
+li {
+    line-height: 1.5;
+}

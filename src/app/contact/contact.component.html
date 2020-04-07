@@ -1,0 +1,16 @@
+<div class="contact-wrapper">
+  <div class="contact-container">
+    <mat-card>
+      <mat-card-title>Contacts</mat-card-title>
+      <mat-card-content>
+        Interested in hiring me for your project or just want to say hi? You can send
+        me an email to <a href="mailto: asdivinity8@gmail.com">asdivinity8@gmail.com.</a></mat-card-content>
+      <mat-card-content>
+        Want to get connected? Follow me on the social channels below.
+      </mat-card-content>
+      <mat-card-content>
+        <a *ngFor="let icon of icons" href="{{icon.link}}" target="{{icon.target}}"><img src="{{icon.iconUrl}}"></a>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>

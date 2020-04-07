@@ -1,0 +1,17 @@
+<div class="skill-wrapper">
+  <div class="skill-headline">
+    <h2>What I do</h2>
+    <p class="skill-desc">I have more than 6 years' experience building user interface for clients all over the world. Below is a quick
+      overview of my main technical skill sets and technologies I use. Want to find out more about my experience? Check
+      out my <a routerLink="/resume" routerLinkActive="active">online resume</a> and <a routerLink="/projects"
+        routerLinkActive="active">project portfolio</a>.</p>
+  </div>
+
+  <div class="skill-container">
+    <div *ngFor="let skill of skills" class="skill-card">
+      <img src="assets/{{skill.icon}}.svg">
+      <p class="skill-name">{{ skill.title }}</p>
+    </div>
+
+  </div>
+</div>

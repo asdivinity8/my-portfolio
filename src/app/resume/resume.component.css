@@ -1,0 +1,10 @@
+[mat-raised-button] {
+    margin: 30px auto;
+    padding-top: 10px;
+}
+
+.resume-container {
+ max-width: 900px;
+ margin: 0 auto;
+ text-align: center;
+}

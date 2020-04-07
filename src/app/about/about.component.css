@@ -1,0 +1,40 @@
+.container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 20px;
+    padding: 40px;
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+.text-container h1 {
+    font-size: 40px;
+    color: #292929;
+}
+
+.text-container p {
+    color: #4f4f4f;
+}
+
+.subtitle {
+    font-weight: lighter;
+}
+
+.description {
+    line-height: 1.5;
+    margin-bottom: 40px;
+    font-style: italic;
+}
+
+.profile-pic {
+    background-image: url('src/assets/IMG_20191222_221848__01.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    width: 450px;
+    border-radius: 4px;
+}
+
+button {
+    margin-right: 20px;
+}
