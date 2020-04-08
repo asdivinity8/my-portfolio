@@ -1,11 +1,10 @@
 .blogs-wrapper {
-    padding: 30px 40px;
+    padding: 50px 40px;
 }
 
 .blogs-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 40px;
+    grid-template-columns: 1fr ;
 }
 
 .blogs-headline {
@@ -38,4 +37,15 @@ mat-card-content a{
 mat-card-content a:hover, mat-card-content a:active, mat-card-content a:focus{
     color: #398562;
     text-decoration: underline;
+}
+
+@media only screen and (min-width:768px){
+    .blogs-wrapper {
+        padding-top: 30px;
+    }
+
+    .blogs-container {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 40px;
+    }
 }

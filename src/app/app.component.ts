@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { ICONS } from './socialIcons';
 
 @Component({
@@ -6,12 +6,22 @@ import { ICONS } from './socialIcons';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
   title = 'Anu Singh';
   icons = ICONS;
   isShow = false;
+  mobile = false;
+
+  ngOnInit() {
+    if (window.screen.width < 768) { // 768px portrait
+      this.mobile = true;
+      this.isShow = true;
+    }
+  }
 
   toggleDisplay() {
-    this.isShow = !this.isShow;
+    if (this.mobile) {
+      this.isShow = !this.isShow;
+    }
   }
 }

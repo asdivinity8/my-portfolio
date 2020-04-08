@@ -4,7 +4,34 @@
 }
 
 .resume-container {
- max-width: 900px;
  margin: 0 auto;
  text-align: center;
+ padding-top: 70px;
+}
+
+pdf-viewer {
+    display: none;
+}
+
+.mobile-only-text {
+    display: block;
+    padding: 0 20px;
+    font-size: 16px;
+    color: #4f4f4f;
+    line-height: 1.5;
+}
+
+@media only screen and (min-width: 768px){
+    .resume-container {
+        max-width: 900px;
+        padding-top: 0;
+    }
+
+    pdf-viewer {
+        display: block;
+    }
+
+    .mobile-only-text {
+        display: none;
+    }
 }

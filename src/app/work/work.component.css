@@ -1,5 +1,5 @@
 .project-wrapper {
-    padding: 30px 40px;
+    padding: 70px 40px;
 }
 
 .project-container {
@@ -46,4 +46,10 @@ hr {
 
 li {
     line-height: 1.5;
+}
+
+@media only screen and (min-width:768px){
+    .project-wrapper {
+        padding-top: 30px;
+    }
 }
