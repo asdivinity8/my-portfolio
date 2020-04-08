@@ -9,4 +9,9 @@ import { ICONS } from './socialIcons';
 export class AppComponent {
   title = 'Anu Singh';
   icons = ICONS;
+  isShow = false;
+
+  toggleDisplay() {
+    this.isShow = !this.isShow;
+  }
 }
