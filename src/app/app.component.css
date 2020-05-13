@@ -36,7 +36,7 @@ main {
 
 .image-holder {
   border-radius: 50%;
-  background-image: url("https://lh3.googleusercontent.com/-xCG5ecMYEYY/XZW41eHIZNI/AAAAAAAAWkY/t9Q1ANRaWaIlNxp9tmXNJDT1q6Be_rTFgCEwYBhgLKs4DAMBZVoBbNWCQPCXVRGxqTs3n3RaEcqIQEnIKBp_XTCVdPCZriUm1OSN7mLMqNwiyxggZpyTOjAQosUrT8RqlzITt5elmYBvTgbF_IjRyLpQxVHq7z0GVCnIe2gkzPI_5dapRW8R38f5bpF3njW6BwYvFmQIdWAx595SLYcN84CYpLAKRkTJdHHkEMMI56R5jntBWlTAO0c6hFVu_v21VyAuZF6LLTdDaDH3PQMPHIPYfnHqEGEezZbP4bkqU4xzI5qp64cl5I-garYdwgpx81x52R6fDDLUFc1_t1UQBldRkkiQu2VWbvDvOQy55xvGrwXFxrfPfh31iLRPRfIS6ZSqOi2Gb9kYXEo-kkAA1ZV7pL6BUoDcrLCxtozkIQOWVQs1L79wMXzuJWA2ivXE-uY5N4XLQPJkJWYuC6xxxkKPsDA2yRCH7zFpADWj0nldy9Jr3jidsdwtq8QMXa6-0YaKBpQebDA87h9SoATZVRwey05RLOtkDjfdzdbL4CsJzjDk8a6MWyolIogDw_MtemCoyQ0ar_Gc8vABg2-QaDYHb2hZKoH6MGAogSWvPHQQclh6J0jYOWzAks0lhsSvWP3CfQVwGMjB7mD13yNMcMMujo_QF/w280-h280-p/profile_pic.jpeg");
+  background-image: url("src/assets/menu-image.jpg");
   background-size: cover;
   background-position: center;
   width: 90px;
